@@ -9,6 +9,36 @@ h1 {
     background-color: #87CEEB;
     border: 3px solid #FFEFD5;
     border-radius: 5px;
-    width: 40%;
-    padding: 20px;
+}
+
+#headerImage {
+    border: solid 5px #DB7093;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: #87CEEB;
+}
+
+.jumbotron {
+    background-color: #FFEFD5;
+    align-items: center;
+}
+
+.jumbotron .row {
+    margin: 0;
+    padding: 10px;
+    background-image: url(../img/headerBackground.jpg);
+}
+
+.jumbotron .col {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron h1 {
+    height: 100px;
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    border-radius: 50px;
 }
